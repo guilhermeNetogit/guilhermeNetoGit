@@ -1,7 +1,8 @@
-<!-- ANIMATED HEADER -->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Guilherme%20R.%20%20Neto&fontSize=38&fontColor=fff&animation=fadeIn" />
+<!-- ============ NEON MINIMAL HEADER ============ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050014,100:00f5ff&height=180&section=header&text=Guilherme%20R.%20Neto&fontSize=40&fontColor=00f5ff"/>
 
 <div align="center">
+
 
 ## 😎🤘 Welcome to my GitHub
 
@@ -14,31 +15,28 @@
 </div>
 
 ---
-
+<div align="center">
+  
 ## 📊 General Statistics
 
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=guilhermeNetoGit&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=compact&langs_count=8&theme=tokyonight" />
 
 </div>
 
 ---
 
-## 🔥 Commit Streak
-
 <div align="center">
+  
+## 🔥 Commit Streak
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=guilhermeNetoGit&theme=tokyonight&hide_border=true" />
 
 </div>
 
 ---
+<div align="center">
 
 ## 🧠 Activity & Advanced Metrics
-
-<div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=guilhermeNetoGit&theme=tokyonight" />
 
@@ -52,8 +50,11 @@
 </div>
 
 ---
-
+<div align="center">
+  
 ## 🛠️ Technologies & Tools I Work With
+
+</div>
 
 **OS:** ![Windowns](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
 
@@ -72,6 +73,8 @@
 
 ---
 
+<div align="center">
+
 ## 🚀 Featured Projects
 
 | 💻 Project | 📝 Description |
@@ -80,11 +83,13 @@
 | ⚡ **Project 2** | ... |
 | 🔥 **Project 3** | ... |
 
+</div>
+
 ---
 
-## 🤝 Contact
-
 <div align="center">
+
+## 🤝 Contact
 
 <a href="https://www.linkedin.com">
 <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=blue" />
@@ -97,6 +102,5 @@
 </div>
 
 ---
-
-<!-- FOOTER -->
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" />
+<!-- ============ NEON MINIMAL FOOTER ============ --> 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:050014&height=100&section=footer"/> ```
