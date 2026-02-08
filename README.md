@@ -70,7 +70,8 @@
 **IDEs:** ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
 ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
 
-**Tools:** ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
+**Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
 
 ---
 
