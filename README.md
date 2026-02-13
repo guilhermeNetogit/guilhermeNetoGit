@@ -79,7 +79,7 @@
 
 
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css3)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
 
 **Database:** ![Static Badge](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft&logoColor=white)
 
