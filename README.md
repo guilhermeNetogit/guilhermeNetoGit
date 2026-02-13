@@ -10,6 +10,8 @@
 🌙 Dark mode on  
 💡 Always learning something new
 
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=Olá,+Mundo!;Hello,+World!;Hallo,+Welt!;Salve,+Mundus!;Ciao,+Mondo!;Bonjour,+Le+Monde!;「こんにちは世界」" alt="Typing SVG" />
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilhermerneto/)
 
 </div>
@@ -17,9 +19,11 @@
 ---
 <div align="center">
   
-## 📊 General Statistics
+## 📊 General GitHub Statistics
 
-<img height="180em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=compact&langs_count=8&theme=tokyonight" />
+![Guilherme's GitHub stats](https://stats-cards-145l.vercel.app/api?username=guilhermeNetoGit&show_icons=true&theme=tokyonight)
+
+<img height="150em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=compact&langs_count=8&theme=tokyonight" />
 
 </div>
 
@@ -34,6 +38,7 @@
 </div>
 
 ---
+
 <div align="center">
 
 ## 🧠 Activity & Advanced Metrics
@@ -50,6 +55,17 @@
 </div>
 
 ---
+
+<div align="center">
+
+## 🏆 GitHub Trophies
+
+![trophy](https://trophies-beta.vercel.app/?username=guilhermeNetoGit&theme=discord)
+
+</div>
+
+---
+
 <div align="center">
   
 ## 🛠️ Technologies & Tools I Work With
@@ -104,5 +120,6 @@
 </div>
 
 ---
+
 <!-- ============ NEON MINIMAL FOOTER ============ --> 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:00f5ff,100:050014&height=100&section=footer"/>
