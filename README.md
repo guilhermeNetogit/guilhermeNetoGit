@@ -3,14 +3,13 @@
 
 <div align="center">
 
-
 ## 😎🤘 Welcome to my GitHub
 
 🚀 Developer  
 🌙 Dark mode on  
 💡 Always learning something new
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=Olá,+Mundo!;Hello,+World!;Hallo,+Welt!;Salve,+Mundus!;Ciao,+Mondo!;Bonjour,+Le+Monde!;「こんにちは世界」" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=2000&pause=1200&random=true&color=FFFFFF&center=true&vCenter=true&width=435&lines=Olá,+Mundo!;Hello,+World!;Hallo,+Welt!;Salve,+Mundus!;Ciao,+Mondo!;Bonjour,+Le+Monde!;「こんにちは世界;Selam,+Dünya!;¡Hola,+Mundo!;Привет,+мир!;你好世界" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilhermerneto/)
 
@@ -76,7 +75,8 @@
 
 **Backend:** ![Java](https://img.shields.io/badge/Java-red?style=plastic&logo=openjdk)
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
-![Static Badge](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
+
 
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css3)
