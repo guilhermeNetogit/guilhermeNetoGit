@@ -1,5 +1,5 @@
 <!-- ============ NEON MINIMAL HEADER ============ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050014,100:00f5ff&height=180&section=header&text=Guilherme%20R.%20Neto&fontSize=40&fontColor=00f5ff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050014,100:00f5ff&height=180&section=header&text=Guilherme%20R.%20Neto&fontSize=40&fontColor=212830"/>
 
 <div align="center">
 
