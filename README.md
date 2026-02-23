@@ -109,8 +109,8 @@
 
 ## 🤝 Contact
 
-<a href="https://www.linkedin.com">
-<img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=blue" />
+<a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=blue" />
 </a>
 
 <a href="mailto:youremail@email.com">
