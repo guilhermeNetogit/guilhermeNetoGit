@@ -16,6 +16,10 @@
 </div>
 
 ---
+<!-- BEGIN CHESS BOARD -->
+<!-- END CHESS BOARD -->
+
+---
 <div align="center">
   
 ## 📊 General GitHub Statistics
