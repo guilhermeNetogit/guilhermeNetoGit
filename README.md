@@ -16,7 +16,11 @@
 </div>
 
 ---
+<div align="center">
+  
 # Let's Play Chess ♔♕♖♗♘♙
+
+</div>
 
 This is an open chess match where ANYONE can play. That's the fun part.  
 It's your turn to play! Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
