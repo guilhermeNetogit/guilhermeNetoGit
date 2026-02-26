@@ -38,13 +38,13 @@ It's your turn to play! Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
 | **1** | <img src="img/white/rook.svg" width=45px> | <img src="img/white/knight.svg" width=45px> | <img src="img/white/bishop.svg" width=45px> | <img src="img/white/queen.svg" width=45px> | <img src="img/white/king.svg" width=45px> | <img src="img/white/bishop.svg" width=45px> | <img src="img/white/knight.svg" width=45px> | <img src="img/white/rook.svg" width=45px> | **1** |
 |   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
 
----
+
 
 ### ⚔️ Peças Capturadas
 
 **⚪ Brancas:** _nenhuma_ &nbsp; | &nbsp; **⚫ Pretas:** _nenhuma_
 <!-- END CHESS BOARD -->
-
+#
 **It's your turn to move! Choose one from the following table**
 <!-- BEGIN MOVES LIST -->
 |  FROM  | TO (Just click a link!) |
@@ -89,8 +89,6 @@ When you click on a link and submit a new issue with the desired move, a GitHub 
 
 <!-- END TOP MOVES -->
 </details>
-
----
 
 Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://github.com/guilhermeNetogit/readme-chess)!
 
