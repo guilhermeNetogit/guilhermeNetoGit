@@ -13,10 +13,6 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilhermerneto/)
 
-<a href="https://www.linkedin.com/in/guilhermerneto/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-
 </div>
 
 ---
