@@ -46,6 +46,51 @@ def generate_top_moves():
 
     return markdown + "\n"
 
+def get_algebraic_notation():
+    """
+    Extrai a notação algébrica das últimas jogadas do arquivo PGN
+    Retorna uma lista com as últimas N jogadas no formato: "5. c4", "5... e5", etc.
+    """
+    if not os.path.exists('games/current.pgn'):
+        return []
+    
+    try:
+        with open('games/current.pgn') as pgn_file:
+            game = chess.pgn.read_game(pgn_file)
+            if game is None:
+                return []
+            
+            # Extrair notação principal
+            board = game.board()
+            moves = []
+            
+            # Pular cabeçalhos do PGN
+            node = game
+            move_number = 1
+            
+            while node.variations:
+                next_node = node.variations[0]
+                move = next_node.move
+                
+                # Obter notação algébrica
+                san = board.san(move)
+                
+                # Determinar se é movimento das brancas ou pretas
+                if board.turn == chess.WHITE:  # Antes de fazer o movimento, turn = WHITE significa que é movimento das brancas
+                    moves.append(f"{move_number}. {san}")
+                else:
+                    moves.append(f"{move_number}... {san}")
+                    move_number += 1
+                
+                board.push(move)
+                node = next_node
+            
+            return moves  # Retorna todas as jogadas
+            
+    except Exception as e:
+        print(f"Erro ao ler notação algébrica: {e}")
+        return []
+
 def generate_last_moves():
     if not os.path.exists("data/last_moves.txt"):
         return "\n| Move | Algebraic Notation | Author |\n| :--: | :----------------: | :----- |\n| *Nenhum movimento ainda* | | |\n\n"
