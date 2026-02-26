@@ -229,4 +229,4 @@ if __name__ == '__main__':
     ret, reason = main(issue, issue_author, repo_owner)
 
     if ret == False:
-        sys.exit(reason)
+        sys.exit(reason) 
