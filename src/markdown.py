@@ -47,35 +47,66 @@ def generate_top_moves():
     return markdown + "\n"
 
 def generate_last_moves():
-    # Verifica se o arquivo existe
     if not os.path.exists("data/last_moves.txt"):
-        return "\n| Move | Author |\n| :--: | :----- |\n| *Nenhum movimento ainda* |\n\n"
+        return "\n| Move | Algebraic Notation | Author |\n| :--: | :----------------: | :----- |\n| *Nenhum movimento ainda* | | |\n\n"
+    
+    # Pegar notação algébrica do PGN
+    algebraic_moves = get_algebraic_notation()
+    
     markdown = "\n"
-    markdown += "| Move | Author |\n"
-    markdown += "| :--: | :----- |\n"
+    markdown += "| Move | Algebraic Notation | Author |\n"
+    markdown += "| :--: | :----------------: | :----- |\n"
 
-    counter = 0
-
+    # Ler todas as linhas do arquivo last_moves.txt
     with open("data/last_moves.txt", 'r') as file:
-        for line in file.readlines():
-            parts = line.rstrip().split(':')
-
-            if not ":" in line:
-                continue
-
-            if counter >= settings['misc']['max_last_moves']:
-                break
-
-            counter += 1
-
-            match_obj = re.search('([A-H][1-8])([A-H][1-8])', line, re.I)
-            if match_obj is not None:
-                source = match_obj.group(1).upper()
-                dest   = match_obj.group(2).upper()
-
-                markdown += "| `" + source + "` to `" + dest + "` | " + create_link(parts[1], "https://github.com/" + parts[1].lstrip()[1:]) + " |\n"
-            else:
-                markdown += "| `" + parts[0] + "` | " + create_link(parts[1], "https://github.com/" + parts[1].lstrip()[1:]) + " |\n"
+        lines = file.readlines()
+    
+    # Separar Start game das jogadas
+    start_game_line = None
+    moves_lines = []
+    
+    for line in lines:
+        if "Start game" in line:
+            start_game_line = line
+        else:
+            moves_lines.append(line)
+    
+    # Pegar as últimas N jogadas (configurável)
+    max_moves = settings['misc']['max_last_moves']
+    
+    # Se tiver Start game, reservamos espaço para ele
+    if start_game_line:
+        max_moves = max_moves - 1
+    
+    # Pegar as últimas N jogadas
+    recent_moves = moves_lines[-max_moves:] if len(moves_lines) > max_moves else moves_lines
+    
+    # Pegar as últimas N notações algébricas
+    recent_algebraic = algebraic_moves[-len(recent_moves):] if len(algebraic_moves) >= len(recent_moves) else algebraic_moves
+    
+    # INVERTER a notação algébrica
+    recent_algebraic.reverse()
+    
+    # Mostrar as jogadas
+    for i, move_line in enumerate(recent_moves):
+        parts = move_line.rstrip().split(':')
+        
+        if not ":" in move_line:
+            continue
+        
+        algebraic = recent_algebraic[i] if i < len(recent_algebraic) else "—"
+        
+        match_obj = re.search('([A-H][1-8])([A-H][1-8])', move_line, re.I)
+        if match_obj is not None:
+            source = match_obj.group(1).upper()
+            dest   = match_obj.group(2).upper()
+            move_display = f"`{source} to {dest}`"
+            markdown += f"| {move_display} | `{algebraic}` | {create_link(parts[1], 'https://github.com/' + parts[1].lstrip()[1:])} |\n"
+    
+    # Adicionar Start game no final (se existir)
+    if start_game_line:
+        parts = start_game_line.rstrip().split(':')
+        markdown += f"| `Start game` | — | {create_link(parts[1], 'https://github.com/' + parts[1].lstrip()[1:])} |\n"
 
     return markdown + "\n"
 
