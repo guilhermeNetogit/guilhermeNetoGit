@@ -23,8 +23,18 @@ def create_issue_link(source, dest_list):
     return ", ".join(ret)
 
 def generate_top_moves():
+    # Verifica se o arquivo existe, se não existir, cria com um dicionário vazio
+    if not os.path.exists("data/top_moves.txt"):
+        with open("data/top_moves.txt", 'w') as file:
+            file.write("{}")
+    
     with open("data/top_moves.txt", 'r') as file:
-        dictionary = ast.literal_eval(file.read())
+        contents = file.read()
+        # Se o arquivo estiver vazio, usa dicionário vazio
+        if not contents.strip():
+            dictionary = {}
+        else:
+            dictionary = ast.literal_eval(contents)
 
     markdown = "\n"
     markdown += "| Total moves |  User  |\n"
@@ -37,6 +47,9 @@ def generate_top_moves():
     return markdown + "\n"
 
 def generate_last_moves():
+    # Verifica se o arquivo existe
+    if not os.path.exists("data/last_moves.txt"):
+        return "\n| Move | Author |\n| :--: | :----- |\n| *Nenhum movimento ainda* |\n\n"
     markdown = "\n"
     markdown += "| Move | Author |\n"
     markdown += "| :--: | :----- |\n"
@@ -97,56 +110,170 @@ def generate_moves_list(board):
 
     return markdown
 
+def get_captured_pieces(board):
+    """
+    Retorna um dicionário com as peças capturadas de cada cor
+    """
+    # Configuração inicial das peças
+    initial_pieces = {
+        chess.PAWN: 8, chess.KNIGHT: 2, chess.BISHOP: 2,
+        chess.ROOK: 2, chess.QUEEN: 1, chess.KING: 1
+    }
+    
+    # Contar peças atuais no tabuleiro
+    current_pieces = {chess.WHITE: defaultdict(int), chess.BLACK: defaultdict(int)}
+    for square in chess.SQUARES:
+        piece = board.piece_at(square)
+        if piece:
+            current_pieces[piece.color][piece.piece_type] += 1
+    
+    # Mapeamento de peças para SVGs
+    piece_to_svg = {
+        (chess.BLACK, chess.PAWN): "img/black/pawn.svg",
+        (chess.BLACK, chess.KNIGHT): "img/black/knight.svg",
+        (chess.BLACK, chess.BISHOP): "img/black/bishop.svg",
+        (chess.BLACK, chess.ROOK): "img/black/rook.svg",
+        (chess.BLACK, chess.QUEEN): "img/black/queen.svg",
+        (chess.BLACK, chess.KING): "img/black/king.svg",
+        (chess.WHITE, chess.PAWN): "img/white/pawn.svg",
+        (chess.WHITE, chess.KNIGHT): "img/white/knight.svg",
+        (chess.WHITE, chess.BISHOP): "img/white/bishop.svg",
+        (chess.WHITE, chess.ROOK): "img/white/rook.svg",
+        (chess.WHITE, chess.QUEEN): "img/white/queen.svg",
+        (chess.WHITE, chess.KING): "img/white/king.svg",
+    }
+    
+    # Calcular peças capturadas
+    captured = {
+        'white_captured': [],  # Peças que as BRANCAS capturaram (portanto, são peças PRETAS)
+        'black_captured': []   # Peças que as PRETAS capturaram (portanto, são peças BRANCAS)
+    }
+    
+    # DEBUG: Vamos imprimir para ver o que está acontecendo
+    print(f"DEBUG - Current pieces WHITE: {dict(current_pieces[chess.WHITE])}")
+    print(f"DEBUG - Current pieces BLACK: {dict(current_pieces[chess.BLACK])}")
+    
+    # Peças capturadas pelas BRANCAS (peças PRETAS que faltam)
+    for piece_type, initial_count in initial_pieces.items():
+        if piece_type != chess.KING:  # Rei nunca é capturado
+            current_count = current_pieces[chess.BLACK].get(piece_type, 0)
+            captured_count = initial_count - current_count
+            print(f"DEBUG - Black {chess.piece_name(piece_type)}: initial={initial_count}, current={current_count}, captured={captured_count}")
+            for _ in range(captured_count):
+                captured['white_captured'].append(piece_to_svg[(chess.BLACK, piece_type)])
+    
+    # Peças capturadas pelas PRETAS (peças BRANCAS que faltam)
+    for piece_type, initial_count in initial_pieces.items():
+        if piece_type != chess.KING:
+            current_count = current_pieces[chess.WHITE].get(piece_type, 0)
+            captured_count = initial_count - current_count
+            print(f"DEBUG - White {chess.piece_name(piece_type)}: initial={initial_count}, current={current_count}, captured={captured_count}")
+            for _ in range(captured_count):
+                captured['black_captured'].append(piece_to_svg[(chess.WHITE, piece_type)])
+    
+    print(f"DEBUG - white_captured (peças pretas capturadas pelas brancas): {len(captured['white_captured'])} peças")
+    print(f"DEBUG - black_captured (peças brancas capturadas pelas pretas): {len(captured['black_captured'])} peças")
+    
+    return captured
+
+def captured_pieces_to_markdown(board):
+    """
+    Gera o HTML para exibir as peças capturadas ao lado do tabuleiro
+    """
+    captured = get_captured_pieces(board)
+    
+    markdown = '\n<div align="center">\n\n'
+    markdown += '### ⚔️ Peças Capturadas\n\n'
+    
+    # Peças capturadas pelas pretas (lado esquerdo - visão das pretas)
+    markdown += '<table>\n'
+    markdown += '  <tr>\n'
+    markdown += '    <td width="200" align="center"><strong>⚫ Pretas capturaram</strong><br>'
+    for svg_path in captured['black_captured']:
+        markdown += f'<img src="{svg_path}" width=30px> '
+        
+    markdown += '\n    </td>\n'
+    
+    # Peças capturadas pelas brancas (lado direito - visão das brancas)
+    markdown += '    <td valign="middle" align="center" width="100">\n'
+    markdown += '      <strong>⚪ Brancas capturaram</strong><br>\n'
+    
+    # Adicionar as imagens das peças capturadas pelas brancas
+    if captured['white_captured']:
+        for svg_path in captured['white_captured']:
+            markdown += f'      <img src="{svg_path}" width=35px><br>\n'
+    else:
+        markdown += '      <em>nenhuma</em>\n'
+    
+    markdown += '    </td>\n'  # Fechamento correto da tag <td>
+    
+    markdown += '  </tr>\n'
+    markdown += '</table>\n'
+
+    return markdown
+
 def board_to_markdown(board):
     board_list = [[item for item in line.split(' ')] for line in str(board).split('\n')]
     markdown = ""
 
     images = {
-        "r": "img/black/rook.svg",
-        "n": "img/black/knight.svg",
-        "b": "img/black/bishop.svg",
-        "q": "img/black/queen.svg",
-        "k": "img/black/king.svg",
-        "p": "img/black/pawn.svg",
-
-        "R": "img/white/rook.svg",
-        "N": "img/white/knight.svg",
-        "B": "img/white/bishop.svg",
-        "Q": "img/white/queen.svg",
-        "K": "img/white/king.svg",
-        "P": "img/white/pawn.svg",
-
+        "r": "img/black/rook.svg", "n": "img/black/knight.svg", "b": "img/black/bishop.svg",
+        "q": "img/black/queen.svg", "k": "img/black/king.svg", "p": "img/black/pawn.svg",
+        "R": "img/white/rook.svg", "N": "img/white/knight.svg", "B": "img/white/bishop.svg",
+        "Q": "img/white/queen.svg", "K": "img/white/king.svg", "P": "img/white/pawn.svg",
         ".": "img/blank.png"
     }
 
-    # Write header in Markdown format
+    # Get captured pieces
+    captured = get_captured_pieces(board)
+    
+    # TABULEIRO (Markdown puro - sem tabela HTML)
     if board.turn == chess.BLACK:
         markdown += "|   | H | G | F | E | D | C | B | A |   |\n"
     else:
         markdown += "|   | A | B | C | D | E | F | G | H |   |\n"
     markdown += "|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|\n"
 
-    # Get Rows
     rows = range(1, 9)
     if board.turn == chess.BLACK:
         rows = reversed(rows)
 
-    # Write board
     for row in rows:
         markdown += "| **" + str(9 - row) + "** | "
         columns = board_list[row - 1]
         if board.turn == chess.BLACK:
             columns = reversed(columns)
-
         for elem in columns:
-            markdown += "<img src=\"{}\" width=50px> | ".format(images.get(elem, "???"))
-
+            markdown += "<img src=\"{}\" width=45px> | ".format(images.get(elem, "???"))
         markdown += "**" + str(9 - row) + "** |\n"
 
-    # Write footer in Markdown format
     if board.turn == chess.BLACK:
-        markdown += "|   | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |   |\n"
+        markdown += "|   | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |   |\n\n"
     else:
-        markdown += "|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |\n"
+        markdown += "|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |\n\n"
+    
+    # PEÇAS CAPTURADAS (em linha única abaixo)
+    markdown += "---\n\n"
+    markdown += "### ⚔️ Peças Capturadas\n\n"
+    
+    # Brancas capturaram (peças pretas)
+    markdown += "**⚪ Brancas:** "
+    if captured['white_captured']:
+        for svg_path in captured['white_captured']:
+            markdown += f'<img src="{svg_path}" width=22px> '
+    else:
+        markdown += "_nenhuma_"
+    
+    markdown += " &nbsp; | &nbsp; "
+    
+    # Pretas capturaram (peças brancas)
+    markdown += "**⚫ Pretas:** "
+    if captured['black_captured']:
+        for svg_path in captured['black_captured']:
+            markdown += f'<img src="{svg_path}" width=22px> '
+    else:
+        markdown += "_nenhuma_"
+    
+    markdown += "\n"
 
     return markdown
