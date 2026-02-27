@@ -39,7 +39,7 @@ It's your turn to play! Move a <!-- BEGIN TURN -->black<!-- END TURN --> piece.
 |   | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |   |
 
 #
-### ⚔️ Peças Capturadas
+### ⚔️ Captured Pieces
 **⚪ White:** <img src="img/black/pawn.svg" width=22px> <img src="img/black/pawn.svg" width=22px> <img src="img/black/knight.svg" width=22px> <img src="img/black/bishop.svg" width=22px> <img src="img/black/bishop.svg" width=22px> <img src="img/black/queen.svg" width=22px>  &nbsp; | &nbsp; **⚫ Black:** <img src="img/white/pawn.svg" width=22px> <img src="img/white/pawn.svg" width=22px> <img src="img/white/pawn.svg" width=22px> <img src="img/white/knight.svg" width=22px> <img src="img/white/knight.svg" width=22px> <img src="img/white/bishop.svg" width=22px> <img src="img/white/rook.svg" width=22px> <img src="img/white/queen.svg" width=22px> 
 <!-- END CHESS BOARD -->
 #
