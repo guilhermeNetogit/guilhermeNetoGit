@@ -156,7 +156,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 </div>
 
-**OS:** ![Windowns](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
+**OS:** ![Windows](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
 
 **Backend:** ![Java](https://img.shields.io/badge/Java-red?style=plastic&logo=openjdk)
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
@@ -166,7 +166,9 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
 
-**Database:** ![Static Badge](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft&logoColor=white)
+**Database:** ![MSQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft&logoColor=white)
+
+**Cloud:** ![Google Drive](https://img.shields.io/badge/Drive-%23F9AB00?style=plastic&logo=googledrive&logoColor=%23FFFFFF&labelColor=%23F9AB00)
 
 **IDEs:** ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
 ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
