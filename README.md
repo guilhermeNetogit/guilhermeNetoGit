@@ -23,32 +23,37 @@
 </div>
 
 This is an open chess match where ANYONE can play. That's the fun part.  
-It's your turn to play! Move a <!-- BEGIN TURN -->black<!-- END TURN --> piece.
+It's your turn to play! Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
 
 <!-- BEGIN CHESS BOARD -->
-|   | H | G | F | E | D | C | B | A |   |
+|   | A | B | C | D | E | F | G | H |   |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **1** | <img src="img/blank.png" width=45px> | <img src="img/white/king.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/rook.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **1** |
-| **2** | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | **2** |
-| **3** | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | <img src="img/white/bishop.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/knight.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **3** |
-| **4** | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **4** |
+| **8** | <img src="img/blank.png" width=45px> | <img src="img/black/rook.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/rook.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **8** |
+| **7** | <img src="img/black/pawn.svg" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/queen.svg" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/black/king.svg" width=45px> | <img src="img/black/pawn.svg" width=45px> | **7** |
+| **6** | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | **6** |
 | **5** | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **5** |
-| **6** | <img src="img/blank.png" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **6** |
-| **7** | <img src="img/black/pawn.svg" width=45px> | <img src="img/white/queen.svg" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/black/queen.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/pawn.svg" width=45px> | <img src="img/black/pawn.svg" width=45px> | **7** |
-| **8** | <img src="img/blank.png" width=45px> | <img src="img/black/king.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/rook.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/rook.svg" width=45px> | <img src="img/blank.png" width=45px> | **8** |
-|   | **H** | **G** | **F** | **E** | **D** | **C** | **B** | **A** |   |
+| **4** | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | **4** |
+| **3** | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/black/knight.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/bishop.svg" width=45px> | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | **3** |
+| **2** | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/pawn.svg" width=45px> | **2** |
+| **1** | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/rook.svg" width=45px> | <img src="img/blank.png" width=45px> | <img src="img/white/king.svg" width=45px> | <img src="img/blank.png" width=45px> | **1** |
+|   | **A** | **B** | **C** | **D** | **E** | **F** | **G** | **H** |   |
 
 #
 ### ⚔️ Peças Capturadas
-**⚪ Brancas:** <img src="img/black/pawn.svg" width=22px> <img src="img/black/pawn.svg" width=22px> <img src="img/black/knight.svg" width=22px> <img src="img/black/bishop.svg" width=22px> <img src="img/black/bishop.svg" width=22px>  &nbsp; | &nbsp; **⚫ Pretas:** <img src="img/white/pawn.svg" width=22px> <img src="img/white/pawn.svg" width=22px> <img src="img/white/pawn.svg" width=22px> <img src="img/white/knight.svg" width=22px> <img src="img/white/knight.svg" width=22px> <img src="img/white/bishop.svg" width=22px> <img src="img/white/rook.svg" width=22px> 
+**⚪ Brancas:** <img src="img/black/pawn.svg" width=22px> <img src="img/black/pawn.svg" width=22px> <img src="img/black/knight.svg" width=22px> <img src="img/black/bishop.svg" width=22px> <img src="img/black/bishop.svg" width=22px>  &nbsp; | &nbsp; **⚫ Pretas:** <img src="img/white/pawn.svg" width=22px> <img src="img/white/pawn.svg" width=22px> <img src="img/white/pawn.svg" width=22px> <img src="img/white/knight.svg" width=22px> <img src="img/white/knight.svg" width=22px> <img src="img/white/bishop.svg" width=22px> <img src="img/white/rook.svg" width=22px> <img src="img/white/queen.svg" width=22px> 
 <!-- END CHESS BOARD -->
 #
 **It's your turn to move! Choose one from the following table**
 <!-- BEGIN MOVES LIST -->
-**CHECK!** Choose your move wisely!
 |  FROM  | TO (Just click a link!) |
 | :----: | :---------------------- |
-| **G8** | [G7](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G8+to+G7) |
+| **A2** | [A3](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A3), [A4](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+A2+to+A4) |
+| **C4** | [C5](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+C4+to+C5) |
+| **E1** | [A1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+A1), [B1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+B1), [C1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+C1), [D1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+D1), [E2](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+E2), [E3](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+E3), [E4](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+E4), [E5](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+E5), [E6](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+E6), [E7](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+E7), [F1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+E1+to+F1) |
+| **F3** | [C6](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+C6), [D1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+D1), [D5](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+D5), [E2](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+E2), [E4](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+E4), [G2](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+G2), [G4](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+G4), [H1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+H1), [H5](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+F3+to+H5) |
+| **G1** | [F1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+F1), [G2](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+G2), [H1](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G1+to+H1) |
+| **G3** | [G4](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+G3+to+G4) |
+| **H2** | [H3](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H3), [H4](https://github.com/guilhermeNetogit/guilhermeNetoGit/issues/new?body=Please+do+not+change+the+title.+Just+click+%22Submit+new+issue%22.+You+don%27t+need+to+do+anything+else+%3AD&title=Chess%3A+Move+H2+to+H4) |
 <!-- END MOVES LIST -->
 
 Having fun? Ask a friend to do the next move!
@@ -63,6 +68,7 @@ When you click on a link and submit a new issue with the desired move, a GitHub 
 
 | Move | Algebraic Notation | Author |
 | :--: | :----------------: | :----- |
+| `G8 to G7` | `24... Kxg7` | [@arauj0duy](https://github.com/arauj0duy) |
 | `B2 to G7` | `24. Qg7+` | [@guilhermeNetogit](https://github.com/guilhermeNetogit) |
 | `C7 to E7` | `23... Qxe7` | [@arauj0duy](https://github.com/arauj0duy) |
 | `E3 to E7` | `23. Rxe7` | [@guilhermeNetogit](https://github.com/guilhermeNetogit) |
@@ -71,7 +77,6 @@ When you click on a link and submit a new issue with the desired move, a GitHub 
 | `F8 to D8` | `21... Rfd8` | [@arauj0duy](https://github.com/arauj0duy) |
 | `E1 to E3` | `21. Re3` | [@guilhermeNetogit](https://github.com/guilhermeNetogit) |
 | `G7 to G8` | `20... Kg8` | [@arauj0duy](https://github.com/arauj0duy) |
-| `C3 to C4` | `20. c4+` | [@guilhermeNetogit](https://github.com/guilhermeNetogit) |
 | `Start game` | — | [@arauj0duy](https://github.com/arauj0duy) |
 
 <!-- END LAST MOVES -->
@@ -84,7 +89,7 @@ When you click on a link and submit a new issue with the desired move, a GitHub 
 | Total moves |  User  |
 | :---------: | :----- |
 | 49 | [@guilhermeNetogit](https://github.com/guilhermeNetogit) |
-| 47 | [@arauj0duy](https://github.com/arauj0duy) |
+| 48 | [@arauj0duy](https://github.com/arauj0duy) |
 
 <!-- END TOP MOVES -->
 </details>
