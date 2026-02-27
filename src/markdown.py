@@ -377,7 +377,7 @@ def board_to_markdown(board):
     
     # PEÇAS CAPTURADAS (em linha única abaixo)
     markdown += "#\n"
-    markdown += "### ⚔️ Peças Capturadas\n"
+    markdown += "### ⚔️ Captured Pieces\n"
     
     # Brancas capturaram (peças pretas)
     markdown += "**⚪ White:** "
