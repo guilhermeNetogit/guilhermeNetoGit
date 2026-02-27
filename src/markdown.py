@@ -91,6 +91,28 @@ def get_algebraic_notation():
         print(f"Erro ao ler notação algébrica: {e}")
         return []
 
+def get_game_start_date():
+    """
+    Extrai a data de início do jogo do arquivo PGN
+    Retorna a data no formato: YYYY.MM.DD
+    """
+    if not os.path.exists('games/current.pgn'):
+        return None
+    
+    try:
+        with open('games/current.pgn') as pgn_file:
+            # Ler apenas as primeiras linhas (cabeçalhos)
+            for _ in range(10):
+                line = pgn_file.readline()
+                if line.startswith('[Date '):
+                    match = re.search(r'"([^"]+)"', line)
+                    if match:
+                        return match.group(1)
+            return None
+    except Exception as e:
+        print(f"Erro ao ler data do PGN: {e}")
+        return None
+
 def generate_last_moves():
     if not os.path.exists("data/last_moves.txt"):
         return "\n| Move | Algebraic Notation | Author |\n| :--: | :----------------: | :----- |\n| *Nenhum movimento ainda* | | |\n\n"
@@ -165,12 +187,19 @@ def generate_last_moves():
             move_display = f"`{source} to {dest}`"
             markdown += f"| {move_display} | `{algebraic}` | {create_link(author, 'https://github.com/' + author[1:])} |\n"
     
-    # Adicionar Start game no final (se existir)
+        # Adicionar Start game no final (se existir)
     if start_game_line:
         parts = start_game_line.rstrip().split(':')
         author = parts[1].strip()
-        markdown += f"| `Start game` | — | {create_link(author, 'https://github.com/' + author[1:])} |\n"
-
+        
+        # Pegar a data do início do jogo
+        start_date = get_game_start_date()
+        if start_date:
+            date_display = f"{start_date}"
+        else:
+            date_display = "—"
+        
+        markdown += f"| `Start game` | `{date_display}` | {create_link(author, 'https://github.com/' + author[1:])} |\n"
     return markdown + "\n"
 
 def generate_moves_list(board):
