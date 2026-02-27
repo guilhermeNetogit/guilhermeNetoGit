@@ -95,7 +95,7 @@ def generate_last_moves():
     if not os.path.exists("data/last_moves.txt"):
         return "\n| Move | Algebraic Notation | Author |\n| :--: | :----------------: | :----- |\n| *Nenhum movimento ainda* | | |\n\n"
     
-    # Pegar notação algébrica do PGN
+    # Pegar notação algébrica do PGN (já vem na ordem correta: 1. c4, 1... d5, etc.)
     algebraic_moves = get_algebraic_notation()
     
     markdown = "\n"
@@ -123,16 +123,16 @@ def generate_last_moves():
     if start_game_line:
         max_moves = max_moves - 1
     
-    # Pegar as últimas N jogadas
-    recent_moves = moves_lines[-max_moves:] if len(moves_lines) > max_moves else moves_lines
+    # Pegar as últimas N jogadas (mais recentes)
+    recent_moves = moves_lines[:max_moves] if len(moves_lines) > max_moves else moves_lines
     
-    # Pegar as últimas N notações algébricas
-    recent_algebraic = algebraic_moves[-len(recent_moves):] if len(algebraic_moves) >= len(recent_moves) else algebraic_moves
+    # CORREÇÃO AQUI: Não inverter as notações, apenas pegar as últimas N do PGN
+    # Como o PGN está na ordem cronológica, precisamos pegar as últimas N
+    total_moves_in_pgn = len(algebraic_moves)
+    start_index = max(0, total_moves_in_pgn - len(recent_moves))
+    recent_algebraic = algebraic_moves[start_index:total_moves_in_pgn]
     
-    # INVERTER a notação algébrica
-    recent_algebraic.reverse()
-    
-    # Mostrar as jogadas
+    # Mostrar as jogadas (recent_moves já está na ordem correta: mais recente primeiro)
     for i, move_line in enumerate(recent_moves):
         parts = move_line.rstrip().split(':')
         
