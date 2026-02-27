@@ -306,12 +306,12 @@ def captured_pieces_to_markdown(board):
     captured = get_captured_pieces(board)
     
     markdown = '\n<div align="center">\n\n'
-    markdown += '### ⚔️ Peças Capturadas\n\n'
+    markdown += '### ⚔️ Captured Pieces\n\n'
     
     # Peças capturadas pelas pretas (lado esquerdo - visão das pretas)
     markdown += '<table>\n'
     markdown += '  <tr>\n'
-    markdown += '    <td width="200" align="center"><strong>⚫ Pretas capturaram</strong><br>'
+    markdown += '    <td width="200" align="center"><strong>⚫ Black captured</strong><br>'
     for svg_path in captured['black_captured']:
         markdown += f'<img src="{svg_path}" width=30px> '
         
@@ -319,7 +319,7 @@ def captured_pieces_to_markdown(board):
     
     # Peças capturadas pelas brancas (lado direito - visão das brancas)
     markdown += '    <td valign="middle" align="center" width="100">\n'
-    markdown += '      <strong>⚪ Brancas capturaram</strong><br>\n'
+    markdown += '      <strong>⚪ White captured</strong><br>\n'
     
     # Adicionar as imagens das peças capturadas pelas brancas
     if captured['white_captured']:
@@ -380,22 +380,22 @@ def board_to_markdown(board):
     markdown += "### ⚔️ Peças Capturadas\n"
     
     # Brancas capturaram (peças pretas)
-    markdown += "**⚪ Brancas:** "
+    markdown += "**⚪ White:** "
     if captured['white_captured']:
         for svg_path in captured['white_captured']:
             markdown += f'<img src="{svg_path}" width=22px> '
     else:
-        markdown += "_nenhuma_"
+        markdown += "_none_"
     
     markdown += " &nbsp; | &nbsp; "
     
     # Pretas capturaram (peças brancas)
-    markdown += "**⚫ Pretas:** "
+    markdown += "**⚫ Black:** "
     if captured['black_captured']:
         for svg_path in captured['black_captured']:
             markdown += f'<img src="{svg_path}" width=22px> '
     else:
-        markdown += "_nenhuma_"
+        markdown += "_none_"
     
     markdown += "\n"
 
