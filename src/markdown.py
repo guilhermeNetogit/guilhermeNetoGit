@@ -231,7 +231,7 @@ def generate_moves_list(board):
         else:
             result_text = "Game Over"
 
-        return f"**GAME IS OVER!** {result_text}\n\n{create_link('Click here ♟️', issue_link)} to start a new game.\n"
+        return f"**GAME IS OVER!** {result_text}\n\n{create_link('Click here', issue_link)}  ♟️ to start a new game.\n"
 
     if board.is_check():
         markdown += "**CHECK!** Choose your move wisely!\n"
