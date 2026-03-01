@@ -220,7 +220,18 @@ def generate_moves_list(board):
             repo=os.environ["GITHUB_REPOSITORY"],
             params=urlencode(settings['issues']['new_game']))
 
-        return "**GAME IS OVER!** " + create_link("Click here", issue_link) + " to start a new game :D\n"
+        # Determinar o resultado da partida
+        result = board.result()
+        if result == "1-0":
+            result_text = "White Wins! ♔"
+        elif result == "0-1":
+            result_text = "Black Wins! ♚"
+        elif result == "1/2-1/2":
+            result_text = "Draw! ⚖️"
+        else:
+            result_text = "Game Over"
+
+        return f"**GAME IS OVER!** {result_text}\n\n{create_link('Click here ♟️', issue_link)} to start a new game.\n"
 
     if board.is_check():
         markdown += "**CHECK!** Choose your move wisely!\n"
