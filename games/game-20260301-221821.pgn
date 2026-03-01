@@ -4,7 +4,7 @@
 [Round "1"]
 [White "?"]
 [Black "?"]
-[Result "*"]
+[Result "0-1"]
 
-1. f3 { @arauj0duy } 1... e5 { @guilhermeNetogit } 2. g4 { @arauj0duy } *
+1. f3 { @arauj0duy } 1... e5 { @guilhermeNetogit } 2. g4 { @arauj0duy } 2... Qh4# { @guilhermeNetogit } 0-1
 
