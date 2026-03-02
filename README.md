@@ -9,7 +9,7 @@
 🌙 Dark mode on  
 💡 Always learning something new
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=2000&pause=1200&random=true&color=FFFFFF&center=true&vCenter=true&width=435&lines=Olá,+Mundo!;Hello,+World!;Hallo,+Welt!;Salve,+Mundus!;Ciao,+Mondo!;Bonjour,+Le+Monde!;「こんにちは世界;Selam,+Dünya!;¡Hola,+Mundo!;Привет,+мир!;你好世界" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&duration=2000&pause=1200&random=true&color=FFFFFF&center=true&vCenter=true&width=435&lines=Olá,+Mundo!;Hello,+World!;Hallo,+Welt!;Salve,+Mundus!;Ciao,+Mondo!;Bonjour,+Le+Monde!;「こんにちは世界;Selam,+Dünya!;¡Hola,+Mundo!;Привет,+мир!;Witaj+%C5%9Bwiecie!;你好世界;%E0%A6%B9%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A7%8B+%E0%A6%93%E0%A6%AF%E0%A6%BC%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%B2%E0%A7%8D%E0%A6%A1!;%D9%85%D8%B1%D8%AD%D8%A8%D8%A7+%D8%A8%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85!" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guilhermerneto/)
 
