@@ -153,6 +153,7 @@ def update_stats(result):
 def generate_scoreboard():
     """Gera o placar em Markdown"""
     stats = load_stats()
+    print("DEBUG - Scoreboard stats:", stats)  # ← adicione aqui, remover depois
     total = stats['white_wins'] + stats['black_wins'] + stats['draws']
     
     if total == 0:
