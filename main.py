@@ -216,10 +216,10 @@ def main(issue, issue_author, repo_owner):
             turn=('white' if gameboard.turn == chess.WHITE else 'black'),
             last_moves=last_moves,
             top_moves=markdown.generate_top_moves(),
-            scoreboard=markdown.generate_scoreboard()))
+            scoreboard=markdown.generate_scoreboard()
+        ))
 
     return True, ''
-
 
 if __name__ == '__main__':
     if len(sys.argv) >= 2 and sys.argv[1] == '--self-test':
