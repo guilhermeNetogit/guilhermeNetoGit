@@ -206,7 +206,8 @@ def main(issue, issue_author, repo_owner):
         readme = replace_text_between(readme, settings['markers']['turn'], '{turn}')
         readme = replace_text_between(readme, settings['markers']['last_moves'], '{last_moves}')
         readme = replace_text_between(readme, settings['markers']['top_moves'], '{top_moves}')
-
+        readme = replace_text_between(readme, settings['markers']['scoreboard'], '{scoreboard}')
+        
     with open('README.md', 'w') as file:
         # Write new board & list of movements
         file.write(readme.format(
@@ -214,7 +215,8 @@ def main(issue, issue_author, repo_owner):
             moves_list=markdown.generate_moves_list(gameboard),
             turn=('white' if gameboard.turn == chess.WHITE else 'black'),
             last_moves=last_moves,
-            top_moves=markdown.generate_top_moves()))
+            top_moves=markdown.generate_top_moves(),
+            scoreboard=markdown.generate_scoreboard()))
 
     return True, ''
 
