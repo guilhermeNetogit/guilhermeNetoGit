@@ -89,6 +89,9 @@ When you click on a link and submit a new issue with the desired move, a GitHub 
 <!-- END TOP MOVES -->
 </details>
 
+<!-- BEGIN SCOREBOARD -->
+<!-- END SCOREBOARD -->
+
 Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://github.com/guilhermeNetogit/readme-chess)!
 
 ---
