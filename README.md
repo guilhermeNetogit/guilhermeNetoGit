@@ -126,9 +126,8 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 ![Guilherme's GitHub stats](https://github-readme-stats-xamidi.vercel.app/api?username=guilhermeNetogit&show_icons=true&theme=tokyonight&include_all_commits=true)
 
+<img height="300em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=donut-vertical&langs_count=8&theme=tokyonight&include_all_commits=false" />
 <!--![Guilherme's GitHub stats](https://stats-cards-145l.vercel.app/api?username=xamidi&show_icons=true&theme=tokyonight&include_all_commits=true)-->
-
-<img height="150em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=compact&langs_count=8&theme=tokyonight&include_all_commits=false" />
 
 </div>
 
