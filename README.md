@@ -128,7 +128,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 <!--![Guilherme's GitHub stats](https://stats-cards-145l.vercel.app/api?username=xamidi&show_icons=true&theme=tokyonight&include_all_commits=true)-->
 
-<img height="150em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=compact&langs_count=8&theme=tokyonight&include_all_commits=true" />
+<img height="150em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&layout=compact&langs_count=8&theme=tokyonight&include_all_commits=false" />
 
 </div>
 
@@ -138,7 +138,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
   
 ## 🔥 Commit Streak
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=guilhermeNetoGit&theme=tokyonight&hide_border=true" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=guilhermeNetoGit&theme=tokyonight&hide_border=false" />
 
 </div>
 
@@ -165,7 +165,8 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 ## 🏆 GitHub Trophies
 
-![trophy](https://trophies-beta.vercel.app/?username=guilhermeNetoGit&theme=discord)
+<!--![trophy](https://trophies-beta.vercel.app/?username=guilhermeNetoGit&theme=discord)-->
+![Guilherme's trophies](https://github-profile-trophy-xamidi.vercel.app/?username=guilhermeNetogit&theme=discord&margin-w=9&margin-h=9)
 
 </div>
 
