@@ -183,6 +183,8 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 **IDEs:** ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
 ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
+![NetBeans](https://img.shields.io/badge/NetBeans-EA205E?style=plastic&logo=apachenetbeanside)
+![IntelliJIdea](https://img.shields.io/badge/IntelliJ%20IDEA-white?style=plastic&logo=intellijidea&logoColor=black)
 
 **Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
