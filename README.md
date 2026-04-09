@@ -167,12 +167,14 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 </div>
 
-**OS:** ![Windows](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
+**IDEs:** ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
+![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
+![NetBeans](https://img.shields.io/badge/NetBeans-EA205E?style=plastic&logo=apachenetbeanside)
+![IntelliJIdea](https://img.shields.io/badge/IntelliJ%20IDEA-white?style=plastic&logo=intellijidea&logoColor=black)
 
 **Backend:** ![Java](https://img.shields.io/badge/Java-red?style=plastic&logo=openjdk)
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
-
 
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
@@ -181,13 +183,10 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 **Cloud:** ![Google Drive](https://img.shields.io/badge/Drive-%23F9AB00?style=plastic&logo=googledrive&logoColor=%23FFFFFF&labelColor=%23F9AB00)
 
-**IDEs:** ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
-![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
-![NetBeans](https://img.shields.io/badge/NetBeans-EA205E?style=plastic&logo=apachenetbeanside)
-![IntelliJIdea](https://img.shields.io/badge/IntelliJ%20IDEA-white?style=plastic&logo=intellijidea&logoColor=black)
-
 **Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
+
+**OS:** ![Windows](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
 
 ---
 
