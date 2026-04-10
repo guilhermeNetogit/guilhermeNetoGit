@@ -173,8 +173,9 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 ![IntelliJIdea](https://img.shields.io/badge/IntelliJ%20IDEA-white?style=plastic&logo=intellijidea&logoColor=black)
 
 **Backend:** ![Java](https://img.shields.io/badge/Java-red?style=plastic&logo=openjdk)
-![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=plastic&logo=javascript&labelColor=404040)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
+![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
 
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
