@@ -118,7 +118,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 ## 📊 General GitHub Statistics
 
 ![Guilherme's GitHub stats](https://github-readme-stats-xamidi.vercel.app/api?username=guilhermeNetogit&show_icons=true&theme=tokyonight&include_all_commits=true)
-<img height="195em" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&langs_count=8&theme=tokyonight&include_all_commits=false" />
+<img height="250" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=guilhermeNetoGit&langs_count=8&theme=tokyonight&include_all_commits=true"/>
 <!--![Guilherme's GitHub stats](https://stats-cards-145l.vercel.app/api?username=xamidi&show_icons=true&theme=tokyonight&include_all_commits=true)-->
 
 </div>
@@ -129,7 +129,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
   
 ## 🔥 Commit Streak
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=guilhermeNetoGit&theme=tokyonight&hide_border=false" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=guilhermeNetoGit&theme=tokyonight&hide_border=false"/>
 
 </div>
 
