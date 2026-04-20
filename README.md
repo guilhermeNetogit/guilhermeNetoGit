@@ -187,15 +187,18 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 ![Python](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
 
+**Frameworks:** ![Spring Boot](https://img.shields.io/badge/SpringBoot-%236DB33F?style=plastic&logo=springboot&logoColor=white)
+![HIbernate](https://img.shields.io/badge/Hibernate-%2359666C?style=plastic&logo=hibernate&logoColor=white)
+
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
+
+**Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
 
 **Database:** ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=plastic&logo=microsoft&logoColor=white)
 
 **Cloud:** ![Google Drive](https://img.shields.io/badge/Drive-%23F9AB00?style=plastic&logo=googledrive&logoColor=%23FFFFFF&labelColor=%23F9AB00)
-
-**Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
-![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
 
 **OS:** ![Windows](https://img.shields.io/badge/Windows-blue?style=plastic&logo=windows)
 
