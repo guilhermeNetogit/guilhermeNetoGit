@@ -178,21 +178,23 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 </div>
 
-**IDEs:** ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
-![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
+**IDEs:** ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=plastic&logo=visual-studio-code&logoColor=white)
 ![NetBeans](https://img.shields.io/badge/NetBeans-EA205E?style=plastic&logo=apachenetbeanside)
 ![IntelliJIdea](https://img.shields.io/badge/IntelliJ%20IDEA-white?style=plastic&logo=intellijidea&logoColor=black)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=plastic&logo=Eclipse&logoColor=white)
 
 **Backend:** ![Java](https://img.shields.io/badge/Java-red?style=plastic&logo=openjdk)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=plastic&logo=javascript&labelColor=404040)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
 
-**Frameworks:** ![Spring Boot](https://img.shields.io/badge/SpringBoot-%236DB33F?style=plastic&logo=springboot&logoColor=white)
-![HIbernate](https://img.shields.io/badge/Hibernate-%2359666C?style=plastic&logo=hibernate&logoColor=white)
+**Frameworks:** ![Angular](https://img.shields.io/badge/Angular-%23B5314C?style=plastic&logo=angular)
+![Spring Boot](https://img.shields.io/badge/SpringBoot-%236DB33F?style=plastic&logo=springboot&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate-%2359666C?style=plastic&logo=hibernate&logoColor=white)
 
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
+![Sass](https://img.shields.io/badge/Sass-%23CC6699?style=plastic&logo=sass&logoColor=white)
 
 **Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
