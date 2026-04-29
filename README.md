@@ -188,7 +188,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
 
 **Frameworks:** ![Angular](https://img.shields.io/badge/Angular-%23B5314C?style=plastic&logo=angular)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-%236DB33F?style=plastic&logo=springboot&logoColor=white)
+![Spring](https://img.shields.io/badge/Spring-%236DB33F?style=plastic&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-%2359666C?style=plastic&logo=hibernate&logoColor=white)
 
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
