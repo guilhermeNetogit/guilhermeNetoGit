@@ -227,10 +227,6 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
   <img src="https://img.shields.io/badge/LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=blue" />
 </a>
 
-<a href="mailto:youremail@email.com">
-<img src="https://img.shields.io/badge/Email-0d1117?style=for-the-badge&logo=gmail&logoColor=red" />
-</a>
-
 </div>
 
 ---
