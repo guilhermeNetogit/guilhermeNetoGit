@@ -197,6 +197,8 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 **Frontend:** ![HTML5](https://img.shields.io/badge/HTML5-orange?style=plastic&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=plastic&logo=css)
 ![Sass](https://img.shields.io/badge/Sass-%23CC6699?style=plastic&logo=sass&logoColor=white)
+![React](https://img.shields.io/badge/React-black?style=plastic&logo=react)
+
 
 **Tools:** ![Git](https://img.shields.io/badge/Git-white?style=plastic&logo=git)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=plastic&logo=github)
