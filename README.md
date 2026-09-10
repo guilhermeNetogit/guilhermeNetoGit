@@ -171,6 +171,7 @@ Do you want to make your own? Check out [guilhermeNetogit/readme-chess](https://
 
 **Backend:** ![Java](https://img.shields.io/badge/Java-red?style=plastic&logo=openjdk)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style=plastic&logo=javascript&labelColor=404040)
+![TypeScript](https://img.shields.io/badge/TypeScript-%232f74c0?style=plastic&logo=typescript&labelColor=%2300000000&color=%232f74c0)
 ![Python](https://img.shields.io/badge/Python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
 ![C++](https://img.shields.io/badge/C%2B%2B-gray?style=plastic&logo=c%2B%2B)
 
